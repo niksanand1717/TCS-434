@@ -20,11 +20,12 @@ def palindromeCheck(word):
 string = input("Enter a string: ")
 strlst = string.split()
 num = 0
-longest_word = None
+longest_word = []
 for word in strlst:
-    if num > len(word):
+    if num < len(word):
         bool = palindromeCheck(word)
         if bool is True:
-            longest_word = word
+            longest_word.append(word)
+            num = len(word)
 
-print("Longest palindrome is: ", word)
+print("Longest palindrome is: ", longest_word[-1])
