@@ -6,7 +6,7 @@ Section - K
 Branch - B. Tech. (CSE)
 """
 
-# Title - Implementation of stack using list.
+# Title - Dictionary and it's associated operation.
 
 # Program
 
