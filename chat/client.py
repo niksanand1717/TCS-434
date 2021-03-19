@@ -1,7 +1,14 @@
 import socket
 import threading
+import optparse
 
-host = '127.0.0.1'
+parser = optparse.OptionParser()
+parser.add_option("-i", "--ip", dest="hostIP", help="Enter IP address of chat server")
+values, arguments = parser.parse_args()
+if not values.hostIP:
+    parser.error("Enter the host IP address")
+
+host = values.hostIP
 port = 55555
 nickname = input("Choose a Nickname: ")
 

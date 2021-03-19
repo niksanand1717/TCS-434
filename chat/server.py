@@ -1,7 +1,14 @@
 import socket
 import threading
+import re
+import subprocess as sp
 
-host = '127.0.0.1'
+pattern = "(\d+)\.(\d+)\.(\d+)\.(\d+)"
+ifconfig_result = str(sp.check_output(["ifconfig", "wlan0"]))
+ipaddr = re.search(pattern, ifconfig_result)
+# print(ipaddr.group(0))
+
+host = str(ipaddr.group(0))
 port = 55555
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
