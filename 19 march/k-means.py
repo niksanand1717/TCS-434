@@ -16,10 +16,6 @@ for i in range(0, 300):
     lst.append((np.random.randint(0, 100)))
 print(lst)
 
-# In[16]:
-
-
-del cluster
 
 # In[17]:
 
