@@ -11,7 +11,7 @@ class Student():
 class Grade(Student):
     marks = []
     def getMarks(self):
-        print("Enter the marks of 5 subjects separated by space: ")
+        print("Enter the marks of 5 subjects: ")
         for i in range(5):
             self.marks.append(float(input()))
 
