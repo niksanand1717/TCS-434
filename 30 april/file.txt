@@ -1,0 +1,26 @@
+You don’t even need to know Python to use this program.
+You will need to get through Chapter 10 of this book to fully understand the awesome Python techniques that were used to make the program.
+You are the end user, you simply use the program and marvel at its cleverness and how it saved you so much manual effort.
+You simply type the code into a file called words.py and run it or you download the source code from http://www.py4e.com/code3/ and run it.
+This is a good example of how Python and the Python language are acting as an intermediary between you (the end user) and me (the programmer).
+Python is a way for us to exchange useful instruction sequences (i.e., programs) in a common language that can be used by anyone who installs Python on their computer.
+So neither of us are talking to Python, instead we are communicating with each other through Python.
+Beginning programmers sometimes get stuck on one of these activities and forget the others.
+Finding a hard bug requires reading, running, ruminating, and sometimes retreating.
+If you get stuck on one of these activities, try the others. Each activity comes with its own failure mode.
+For example, reading your code might help if the problem is a typographical error, but not if the problem is a conceptual misunderstanding.
+If you don’t understand what your program does, you can read it 100 times and never see the error, because the error is in your head.
+Running experiments can help, especially if you run small, simple tests.
+But if you run experiments without thinking or reading your code, you might fall into a pattern I call “random walk programming”, which is the process of making random changes until the program does the right thing.
+Needless to say, random walk programming can take a long time.
+You have to take time to think. Debugging is like an experimental science.
+You should have at least one hypothesis about what the problem is.
+If there are two or more possibilities, try to think of a test that would eliminate one of them.
+Taking a break helps with the thinking.
+So does talking.
+If you explain the problem to someone else (or even to yourself), you will sometimes find the answer before you finish asking the question.
+But even the best debugging techniques will fail if there are too many errors, or if the code you are trying to fix is too big and complicated.
+Sometimes the best option is to retreat, simplifying the program until you get to something that works and that you understand.
+Beginning programmers are often reluctant to retreat because they can’t stand to delete a line of code (even if it’s wrong).
+If it makes you feel better, copy your program into another file before you start stripping it down.
+Then you can paste the pieces back in a little bit at a time.
