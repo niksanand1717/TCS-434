@@ -1,3 +1,5 @@
+"""Print all the words from a string having length of 3"""
+
 import re
 
 pattern = '(...)$'

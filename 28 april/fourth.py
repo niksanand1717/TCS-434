@@ -1,3 +1,5 @@
+"""Input a string and return all the words starting with vowels"""
+
 import re
 
 pattern = '^[aeiou]'

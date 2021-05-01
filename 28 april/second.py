@@ -1,3 +1,5 @@
+"""Print wether the email ID is valid or not"""
+
 import re
 
 pattern = '.+@gmail.com$'

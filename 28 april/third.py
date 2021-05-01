@@ -1,3 +1,5 @@
+"""Return the Domain name using the regular expression"""
+
 import re
 
 pattern = '@.+$'
